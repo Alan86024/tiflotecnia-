@@ -1,0 +1,309 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: voiceManager\n"
+"POT-Creation-Date: 2024-04-29 17:33+0400\n"
+"PO-Revision-Date: 2024-05-04 17:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;_n:1,2\n"
+"X-Poedit-SearchPath-0: DownloadProgress.cs\n"
+"X-Poedit-SearchPath-1: LocaleMapper.cs\n"
+"X-Poedit-SearchPath-2: MainWindow.cs\n"
+"X-Poedit-SearchPath-3: QualityMap.cs\n"
+"X-Poedit-SearchPath-4: Constants.cs\n"
+
+#: Constants.cs:10
+msgid "Tiflotecnia voices for NVDA"
+msgstr "Tiflotecnia voices for NVDA"
+
+#: DownloadProgress.cs:18
+msgid "Downloading voice"
+msgstr "Preuzimanje glasa"
+
+#: DownloadProgress.cs:19
+msgid "Cancel"
+msgstr "Odustani"
+
+#: DownloadProgress.cs:20
+msgid "Downloading"
+msgstr "Preuzimam"
+
+#: DownloadProgress.cs:27
+#, csharp-format
+msgid "Downloading voice {0}_{1}, {2} of {3}"
+msgstr "Preuzimam glas {0}_{1}, {2} od {3}"
+
+#: DownloadProgress.cs:59
+msgid "Do you want to cancel downloads?"
+msgstr "Želite li obustaviti preuzimanje?"
+
+#: DownloadProgress.cs:59 MainWindow.cs:220
+msgid "Downloads in progress"
+msgstr "Preuzimanja u tijeku"
+
+#: LocaleMapper.cs:78
+msgid "Gulf Arabic"
+msgstr "Arapski regija perzijskog zaljeva"
+
+#: LocaleMapper.cs:79
+msgid "Bhojpuri (India)"
+msgstr "Bhojpuri (Indija)"
+
+#: LocaleMapper.cs:80
+msgid "Dongbei (China)"
+msgstr "Dongbei (Kina)"
+
+#: LocaleMapper.cs:81
+msgid "English (Scotland)"
+msgstr "Engleski (Škotska)"
+
+#: LocaleMapper.cs:82
+msgid "Shanghainese (China)"
+msgstr "Šangajski kineski (Kina)"
+
+#: LocaleMapper.cs:83
+msgid "Sichuanese (China)"
+msgstr "Sichuanski kineski (Kina)"
+
+#: LocaleMapper.cs:84
+msgid "Shaanxi (China)"
+msgstr "Shaanxi (Kina)"
+
+#: LocaleMapper.cs:85
+msgid "Valencian (Spain)"
+msgstr "Valencijski katalonski (Španjolska)"
+
+#: MainWindow.cs:44 MainWindow.cs:112 MainWindow.cs:116 MainWindow.cs:144
+msgid "All"
+msgstr "Sve"
+
+#: MainWindow.cs:63
+#, csharp-format
+msgid "{0} voice manager"
+msgstr "{0} upravitelj glasova"
+
+#: MainWindow.cs:64
+msgid "&Language:"
+msgstr "&jezik:"
+
+#: MainWindow.cs:65
+msgid "Q&uality:"
+msgstr "&Kvaliteta:"
+
+#: MainWindow.cs:66
+msgid "&Voices:"
+msgstr "&Glasovi:"
+
+#: MainWindow.cs:67
+msgid "Voice name"
+msgstr "Ime glasa"
+
+#: MainWindow.cs:68
+msgid "Language"
+msgstr "Jezik"
+
+#: MainWindow.cs:69
+msgid "Quality"
+msgstr "Kvaliteta"
+
+#: MainWindow.cs:70
+msgid "Size"
+msgstr "Veličina"
+
+#: MainWindow.cs:71
+msgid "Status"
+msgstr "Stanje"
+
+#: MainWindow.cs:72
+msgid "&Install selected"
+msgstr "&Instaliraj odabrane glasove"
+
+#: MainWindow.cs:73
+msgid "Install from a local &file..."
+msgstr "Instaliraj iz &datoteke..."
+
+#: MainWindow.cs:74
+msgid "&Remove selected"
+msgstr "&Ukloni odabrane glasove"
+
+#: MainWindow.cs:75
+msgid "Remove &all"
+msgstr "Ukloni &sve"
+
+#: MainWindow.cs:76
+msgid "&Close"
+msgstr "&Zatvori"
+
+#: MainWindow.cs:124
+msgid "B"
+msgstr "B"
+
+#: MainWindow.cs:124
+msgid "KB"
+msgstr "KB"
+
+#: MainWindow.cs:124
+msgid "MB"
+msgstr "MB"
+
+#: MainWindow.cs:124
+msgid "GB"
+msgstr "GB"
+
+#: MainWindow.cs:124
+msgid "TB"
+msgstr "TB"
+
+#: MainWindow.cs:124
+msgid "PB"
+msgstr "PB"
+
+#: MainWindow.cs:124
+msgid "EB"
+msgstr "EB"
+
+#: MainWindow.cs:162
+msgid "installed"
+msgstr "instalirani"
+
+#: MainWindow.cs:162
+msgid "Available for download"
+msgstr "Dostupni za preuzivanje"
+
+#: MainWindow.cs:187
+msgid ""
+"Could not fetch voice list from network. Only offline installations will be "
+"available"
+msgstr ""
+"Ne mogu dohvatiti popis glasova sa mreže. Biti će dostupne samo izvanmrežne "
+"instalacije"
+
+#: MainWindow.cs:187
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: MainWindow.cs:220
+msgid "Do you really want to quit this app?"
+msgstr "Želite li zaista zatvoriti ovu aplikaciju?"
+
+#: MainWindow.cs:253
+#, csharp-format
+msgid "Do you want to install voice {0}_{1}?"
+msgstr "Želite li instalirati glas {0}_{1}?"
+
+#: MainWindow.cs:253
+msgid "Install voice"
+msgstr "Instalacija glasa"
+
+#: MainWindow.cs:263
+msgid "Integrity check Failed! This archive cannot be installed."
+msgstr "Neuspješna provjera cjelovitosti! Ova arhiva ne može se instalirati."
+
+#: MainWindow.cs:263 MainWindow.cs:284 MainWindow.cs:293 MainWindow.cs:373
+msgid "Error"
+msgstr "Greška"
+
+#: MainWindow.cs:284
+msgid "Destination directory cannot be created"
+msgstr "Ciljna mapa ne može biti stvorena"
+
+#: MainWindow.cs:293
+#, csharp-format
+msgid "Voice cannot be installed {0}"
+msgstr "Glas ne može biti instaliran {0}"
+
+#: MainWindow.cs:302
+msgid "Success!"
+msgstr "Uspjeh!"
+
+#: MainWindow.cs:303
+#, csharp-format
+msgid "{0}_{1} has been successfully installed!"
+msgstr "{0}_{1} je uspješno instaliran!"
+
+#: MainWindow.cs:323
+msgid "Download canceled!"
+msgstr "Preuzimanje je obustavljeno!"
+
+#: MainWindow.cs:323
+msgid "Canceled"
+msgstr "Obustavljeno"
+
+#: MainWindow.cs:373
+msgid "Integrity check failled. Voice could not be installed"
+msgstr "Provjera cjelovitosti nije uspjela. Glas ne može biti instaliran"
+
+#: MainWindow.cs:388
+#, csharp-format
+msgid "&Install {0} voice"
+msgid_plural "&Install {0} voices"
+msgstr[0] "&Instaliraj {0} glas"
+msgstr[1] "&instaliraj {0} glasa"
+msgstr[2] "&Instaliraj {0} glasova"
+
+#: MainWindow.cs:389
+#, csharp-format
+msgid "&Remove {0} voice"
+msgid_plural "&Remove {0} voices"
+msgstr[0] "&Ukloni {0} glas"
+msgstr[1] "&Ukloni {0} glasa"
+msgstr[2] "&Ukloni {0} glasova"
+
+#: MainWindow.cs:394 MainWindow.cs:426
+#, csharp-format
+msgid ""
+"Do you want to proceed with this action? {0} voice will be removed from your "
+"computer."
+msgid_plural ""
+"Do you want to proceed with this action? {0} voices will be removed from "
+"your computer."
+msgstr[0] ""
+"Želite li nastaviti izvršavati ovu radnju? {0} glas biti će uklonjen s vašeg "
+"računala."
+msgstr[1] ""
+"Želite li nastaviti izvršavati ovu radnju? {0} glasa biti će uklonjeno s "
+"vašeg računala."
+msgstr[2] ""
+"Želite li nastaviti izvršavati ovu radnju? {0} glasova biti će uklonjeno s "
+"vašeg računala."
+
+#: MainWindow.cs:394 MainWindow.cs:426
+msgid "Confirmation"
+msgstr "Potvrdite"
+
+#: MainWindow.cs:406
+msgid "All voices were removed from computer"
+msgstr "Svi su glasovi uklonjeni s računala"
+
+#: MainWindow.cs:406 MainWindow.cs:438
+msgid "Success"
+msgstr "Uspjeh"
+
+#: MainWindow.cs:438
+msgid "All selected voices were removed from computer"
+msgstr "Svi odabrani glasovi su uklonjeni s računala"
+
+#: QualityMap.cs:9
+msgid "Lowest"
+msgstr "Najniža"
+
+#: QualityMap.cs:10
+msgid "Enhanced"
+msgstr "visoka"
+
+#: QualityMap.cs:11
+msgid "Intermediate"
+msgstr "srednja"
+
+#: QualityMap.cs:12 QualityMap.cs:13
+msgid "Highest"
+msgstr "Najviša"

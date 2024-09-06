@@ -1,0 +1,302 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: voiceManager\n"
+"POT-Creation-Date: 2024-04-29 17:33+0400\n"
+"PO-Revision-Date: 2024-05-02 20:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tiflotecnia, Lda\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;_n:1,2\n"
+"X-Poedit-SearchPath-0: DownloadProgress.cs\n"
+"X-Poedit-SearchPath-1: LocaleMapper.cs\n"
+"X-Poedit-SearchPath-2: MainWindow.cs\n"
+"X-Poedit-SearchPath-3: QualityMap.cs\n"
+"X-Poedit-SearchPath-4: Constants.cs\n"
+
+#: Constants.cs:10
+msgid "Tiflotecnia voices for NVDA"
+msgstr "Vozes Tiflotecnia para NVDA"
+
+#: DownloadProgress.cs:18
+msgid "Downloading voice"
+msgstr "A descarregar a voz"
+
+#: DownloadProgress.cs:19
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: DownloadProgress.cs:20
+msgid "Downloading"
+msgstr "A descarregar"
+
+#: DownloadProgress.cs:27
+#, csharp-format
+msgid "Downloading voice {0}_{1}, {2} of {3}"
+msgstr "A descarregar a voz {0}_{1}, {2} de {3}"
+
+#: DownloadProgress.cs:59
+msgid "Do you want to cancel downloads?"
+msgstr "Pretende cancelar as descargas?"
+
+#: DownloadProgress.cs:59 MainWindow.cs:220
+msgid "Downloads in progress"
+msgstr "Descargas em curso"
+
+#: LocaleMapper.cs:78
+msgid "Gulf Arabic"
+msgstr "Árabe do Golfo"
+
+#: LocaleMapper.cs:79
+msgid "Bhojpuri (India)"
+msgstr "Bhojpuri (Índia)"
+
+#: LocaleMapper.cs:80
+msgid "Dongbei (China)"
+msgstr "Dongbei (China)"
+
+#: LocaleMapper.cs:81
+msgid "English (Scotland)"
+msgstr "Inglês (Escócia)"
+
+#: LocaleMapper.cs:82
+msgid "Shanghainese (China)"
+msgstr "Xangainês (China)"
+
+#: LocaleMapper.cs:83
+msgid "Sichuanese (China)"
+msgstr "Sichuanês (China)"
+
+#: LocaleMapper.cs:84
+msgid "Shaanxi (China)"
+msgstr "Shaanxi (China)"
+
+#: LocaleMapper.cs:85
+msgid "Valencian (Spain)"
+msgstr "Valenciano (Espanha)"
+
+#: MainWindow.cs:44 MainWindow.cs:112 MainWindow.cs:116 MainWindow.cs:144
+msgid "All"
+msgstr "Todos"
+
+#: MainWindow.cs:63
+#, csharp-format
+msgid "{0} voice manager"
+msgstr "{0} gestor de vozes"
+
+#: MainWindow.cs:64
+msgid "&Language:"
+msgstr "&Idioma"
+
+#: MainWindow.cs:65
+msgid "Q&uality:"
+msgstr "&Qualidade:"
+
+#: MainWindow.cs:66
+msgid "&Voices:"
+msgstr "&Vozes:"
+
+#: MainWindow.cs:67
+msgid "Voice name"
+msgstr "Nome da voz"
+
+#: MainWindow.cs:68
+msgid "Language"
+msgstr "Idioma"
+
+#: MainWindow.cs:69
+msgid "Quality"
+msgstr "Qualidade"
+
+#: MainWindow.cs:70
+msgid "Size"
+msgstr "Tamanho"
+
+#: MainWindow.cs:71
+msgid "Status"
+msgstr "Estado"
+
+#: MainWindow.cs:72
+msgid "&Install selected"
+msgstr "&Instalar selecionadas"
+
+#: MainWindow.cs:73
+msgid "Install from a local &file..."
+msgstr "Instalar a partir de um ficheiro & local..."
+
+#: MainWindow.cs:74
+msgid "&Remove selected"
+msgstr "&Remover selecionadas"
+
+#: MainWindow.cs:75
+msgid "Remove &all"
+msgstr "Remover &todas"
+
+#: MainWindow.cs:76
+msgid "&Close"
+msgstr "&Fechar"
+
+#: MainWindow.cs:124
+msgid "B"
+msgstr "B"
+
+#: MainWindow.cs:124
+msgid "KB"
+msgstr "KB"
+
+#: MainWindow.cs:124
+msgid "MB"
+msgstr "MB"
+
+#: MainWindow.cs:124
+msgid "GB"
+msgstr "GB"
+
+#: MainWindow.cs:124
+msgid "TB"
+msgstr "TB"
+
+#: MainWindow.cs:124
+msgid "PB"
+msgstr "PB"
+
+#: MainWindow.cs:124
+msgid "EB"
+msgstr "EB"
+
+#: MainWindow.cs:162
+msgid "installed"
+msgstr "instalada"
+
+#: MainWindow.cs:162
+msgid "Available for download"
+msgstr "Disponível para descarregar"
+
+#: MainWindow.cs:187
+msgid ""
+"Could not fetch voice list from network. Only offline installations will be "
+"available"
+msgstr ""
+"Não foi possível obter a lista de vozes do servidor. Só estarão disponíveis "
+"instalações offline"
+
+#: MainWindow.cs:187
+msgid "Warning"
+msgstr "Atenção"
+
+#: MainWindow.cs:220
+msgid "Do you really want to quit this app?"
+msgstr "Quer mesmo sair desta aplicação?"
+
+#: MainWindow.cs:253
+#, csharp-format
+msgid "Do you want to install voice {0}_{1}?"
+msgstr "Quer instalar a voz {0}_{1}?"
+
+#: MainWindow.cs:253
+msgid "Install voice"
+msgstr "Instalar voz"
+
+#: MainWindow.cs:263
+msgid "Integrity check Failed! This archive cannot be installed."
+msgstr ""
+"Falha no controlo de integridade! Este ficheiro não pode ser instalado."
+
+#: MainWindow.cs:263 MainWindow.cs:284 MainWindow.cs:293 MainWindow.cs:373
+msgid "Error"
+msgstr "Erro"
+
+#: MainWindow.cs:284
+msgid "Destination directory cannot be created"
+msgstr "O diretório de destino não pode ser criado"
+
+#: MainWindow.cs:293
+#, csharp-format
+msgid "Voice cannot be installed {0}"
+msgstr "A voz não pode ser instalada {0}"
+
+#: MainWindow.cs:302
+msgid "Success!"
+msgstr "Sucesso!"
+
+#: MainWindow.cs:303
+#, csharp-format
+msgid "{0}_{1} has been successfully installed!"
+msgstr "{0}_{1} foi instalado com êxito!"
+
+#: MainWindow.cs:323
+msgid "Download canceled!"
+msgstr "Descarga cancelada!"
+
+#: MainWindow.cs:323
+msgid "Canceled"
+msgstr "Cancelada"
+
+#: MainWindow.cs:373
+msgid "Integrity check failled. Voice could not be installed"
+msgstr "O controlo de integridade falhou. Não foi possível instalar a voz"
+
+#: MainWindow.cs:388
+#, csharp-format
+msgid "&Install {0} voice"
+msgid_plural "&Install {0} voices"
+msgstr[0] "&Instalar {0} voz"
+msgstr[1] "&Instalar {0} vozes"
+
+#: MainWindow.cs:389
+#, csharp-format
+msgid "&Remove {0} voice"
+msgid_plural "&Remove {0} voices"
+msgstr[0] "&Remover {0} voz"
+msgstr[1] "&Remover {0} vozes"
+
+#: MainWindow.cs:394 MainWindow.cs:426
+#, csharp-format
+msgid ""
+"Do you want to proceed with this action? {0} voice will be removed from your "
+"computer."
+msgid_plural ""
+"Do you want to proceed with this action? {0} voices will be removed from "
+"your computer."
+msgstr[0] ""
+"Deseja prosseguir com esta acção? {0} voz será removida do computador."
+msgstr[1] ""
+"Deseja prosseguir com esta acção? {0} vozes serão removidas do computador."
+
+#: MainWindow.cs:394 MainWindow.cs:426
+msgid "Confirmation"
+msgstr "Confirmação"
+
+#: MainWindow.cs:406
+msgid "All voices were removed from computer"
+msgstr "Todas as vozes foram removidas do computador"
+
+#: MainWindow.cs:406 MainWindow.cs:438
+msgid "Success"
+msgstr "Sucesso"
+
+#: MainWindow.cs:438
+msgid "All selected voices were removed from computer"
+msgstr "Todas as vozes seleccionadas foram removidas do computador"
+
+#: QualityMap.cs:9
+msgid "Lowest"
+msgstr "Baixa"
+
+#: QualityMap.cs:10
+msgid "Enhanced"
+msgstr "Melhorada"
+
+#: QualityMap.cs:11
+msgid "Intermediate"
+msgstr "Intermédia"
+
+#: QualityMap.cs:12 QualityMap.cs:13
+msgid "Highest"
+msgstr "Elevada"

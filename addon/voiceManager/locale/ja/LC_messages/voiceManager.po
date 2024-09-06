@@ -1,0 +1,296 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: voiceManager\n"
+"POT-Creation-Date: 2024-04-29 17:33+0400\n"
+"PO-Revision-Date: 2024-05-05 10:17+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;_n:1,2\n"
+"X-Poedit-SearchPath-0: DownloadProgress.cs\n"
+"X-Poedit-SearchPath-1: LocaleMapper.cs\n"
+"X-Poedit-SearchPath-2: MainWindow.cs\n"
+"X-Poedit-SearchPath-3: QualityMap.cs\n"
+"X-Poedit-SearchPath-4: Constants.cs\n"
+
+#: Constants.cs:10
+msgid "Tiflotecnia voices for NVDA"
+msgstr "Tiflotecnia voices for NVDA"
+
+#: DownloadProgress.cs:18
+msgid "Downloading voice"
+msgstr "音声のダウンロード"
+
+#: DownloadProgress.cs:19
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: DownloadProgress.cs:20
+msgid "Downloading"
+msgstr "ダウンロード中"
+
+#: DownloadProgress.cs:27
+#, csharp-format
+msgid "Downloading voice {0}_{1}, {2} of {3}"
+msgstr "音声 {0}_{1}、{3}の{2}をダウンロード中"
+
+#: DownloadProgress.cs:59
+msgid "Do you want to cancel downloads?"
+msgstr "ダウンロードをキャンセルしますか？"
+
+#: DownloadProgress.cs:59 MainWindow.cs:220
+msgid "Downloads in progress"
+msgstr "ダウンロード中"
+
+#: LocaleMapper.cs:78
+msgid "Gulf Arabic"
+msgstr "ガルフ・アラビア語"
+
+#: LocaleMapper.cs:79
+msgid "Bhojpuri (India)"
+msgstr "ボジュプリ語（インド）"
+
+#: LocaleMapper.cs:80
+msgid "Dongbei (China)"
+msgstr "ドンベイ（中国）"
+
+#: LocaleMapper.cs:81
+msgid "English (Scotland)"
+msgstr "英語（スコットランド）"
+
+#: LocaleMapper.cs:82
+msgid "Shanghainese (China)"
+msgstr "上海語（中国）"
+
+#: LocaleMapper.cs:83
+msgid "Sichuanese (China)"
+msgstr "四川語（中国）"
+
+#: LocaleMapper.cs:84
+msgid "Shaanxi (China)"
+msgstr "陝西（中国）"
+
+#: LocaleMapper.cs:85
+msgid "Valencian (Spain)"
+msgstr "バレンシア語（スペイン）"
+
+#: MainWindow.cs:44 MainWindow.cs:112 MainWindow.cs:116 MainWindow.cs:144
+msgid "All"
+msgstr "すべて"
+
+#: MainWindow.cs:63
+#, csharp-format
+msgid "{0} voice manager"
+msgstr "{0} 音声マネージャー"
+
+#: MainWindow.cs:64
+msgid "&Language:"
+msgstr "言語(&L)"
+
+#: MainWindow.cs:65
+msgid "Q&uality:"
+msgstr "音質(&U)"
+
+#: MainWindow.cs:66
+msgid "&Voices:"
+msgstr "音声(&V)"
+
+#: MainWindow.cs:67
+msgid "Voice name"
+msgstr "音声の名前"
+
+#: MainWindow.cs:68
+msgid "Language"
+msgstr "言語"
+
+#: MainWindow.cs:69
+msgid "Quality"
+msgstr "音質"
+
+#: MainWindow.cs:70
+msgid "Size"
+msgstr "サイズ"
+
+#: MainWindow.cs:71
+msgid "Status"
+msgstr "状態"
+
+#: MainWindow.cs:72
+msgid "&Install selected"
+msgstr "インストールを選択(&I)"
+
+#: MainWindow.cs:73
+msgid "Install from a local &file..."
+msgstr "ローカルのファイルからインストール(&F)..."
+
+#: MainWindow.cs:74
+msgid "&Remove selected"
+msgstr "選択された音声を削除(&R)..."
+
+#: MainWindow.cs:75
+msgid "Remove &all"
+msgstr "すべて削除(&A)"
+
+#: MainWindow.cs:76
+msgid "&Close"
+msgstr "閉じる(&C)"
+
+#: MainWindow.cs:124
+msgid "B"
+msgstr "B"
+
+#: MainWindow.cs:124
+msgid "KB"
+msgstr "KB"
+
+#: MainWindow.cs:124
+msgid "MB"
+msgstr "MB"
+
+#: MainWindow.cs:124
+msgid "GB"
+msgstr "GB"
+
+#: MainWindow.cs:124
+msgid "TB"
+msgstr "TB"
+
+#: MainWindow.cs:124
+msgid "PB"
+msgstr "PB"
+
+#: MainWindow.cs:124
+msgid "EB"
+msgstr "EB"
+
+#: MainWindow.cs:162
+msgid "installed"
+msgstr "インストール済み"
+
+#: MainWindow.cs:162
+msgid "Available for download"
+msgstr "ダウンロード可能"
+
+#: MainWindow.cs:187
+msgid ""
+"Could not fetch voice list from network. Only offline installations will be "
+"available"
+msgstr ""
+"ネットワークから音声リストを取得できませんでした。オフラインインストールのみ"
+"可能です。"
+
+#: MainWindow.cs:187
+msgid "Warning"
+msgstr "警告"
+
+#: MainWindow.cs:220
+msgid "Do you really want to quit this app?"
+msgstr "このアプリを終了しますか？"
+
+#: MainWindow.cs:253
+#, csharp-format
+msgid "Do you want to install voice {0}_{1}?"
+msgstr "音声 {0}_{1} をインストールしますか？"
+
+#: MainWindow.cs:253
+msgid "Install voice"
+msgstr "音声のインストール"
+
+#: MainWindow.cs:263
+msgid "Integrity check Failed! This archive cannot be installed."
+msgstr "整合性チェックに失敗しました。インストールできません。"
+
+#: MainWindow.cs:263 MainWindow.cs:284 MainWindow.cs:293 MainWindow.cs:373
+msgid "Error"
+msgstr "エラー"
+
+#: MainWindow.cs:284
+msgid "Destination directory cannot be created"
+msgstr "保存先フォルダを作成できません"
+
+#: MainWindow.cs:293
+#, csharp-format
+msgid "Voice cannot be installed {0}"
+msgstr "音声をインストールできません {0}"
+
+#: MainWindow.cs:302
+msgid "Success!"
+msgstr "成功しました"
+
+#: MainWindow.cs:303
+#, csharp-format
+msgid "{0}_{1} has been successfully installed!"
+msgstr "{0}_{1}は正常にインストールされました"
+
+#: MainWindow.cs:323
+msgid "Download canceled!"
+msgstr "ダウンロードを中止しました"
+
+#: MainWindow.cs:323
+msgid "Canceled"
+msgstr "キャンセル"
+
+#: MainWindow.cs:373
+msgid "Integrity check failled. Voice could not be installed"
+msgstr "整合性チェックに失敗しました。音声をインストールできません。"
+
+#: MainWindow.cs:388
+#, csharp-format
+msgid "&Install {0} voice"
+msgid_plural "&Install {0} voices"
+msgstr[0] "{0}個の音声をインストール(&I)"
+
+#: MainWindow.cs:389
+#, csharp-format
+msgid "&Remove {0} voice"
+msgid_plural "&Remove {0} voices"
+msgstr[0] "{0}個の音声を削除(&R)"
+
+#: MainWindow.cs:394 MainWindow.cs:426
+#, csharp-format
+msgid ""
+"Do you want to proceed with this action? {0} voice will be removed from your "
+"computer."
+msgid_plural ""
+"Do you want to proceed with this action? {0} voices will be removed from "
+"your computer."
+msgstr[0] "この操作を続けますか？{0} 個の音声がPCから削除されます。"
+
+#: MainWindow.cs:394 MainWindow.cs:426
+msgid "Confirmation"
+msgstr "確認"
+
+#: MainWindow.cs:406
+msgid "All voices were removed from computer"
+msgstr "すべての音声をPCから削除しました"
+
+#: MainWindow.cs:406 MainWindow.cs:438
+msgid "Success"
+msgstr "成功しました"
+
+#: MainWindow.cs:438
+msgid "All selected voices were removed from computer"
+msgstr "選択された音声をすべてPCから削除しました"
+
+#: QualityMap.cs:9
+msgid "Lowest"
+msgstr "最低"
+
+#: QualityMap.cs:10
+msgid "Enhanced"
+msgstr "拡張"
+
+#: QualityMap.cs:11
+msgid "Intermediate"
+msgstr "中級"
+
+#: QualityMap.cs:12 QualityMap.cs:13
+msgid "Highest"
+msgstr "最高"

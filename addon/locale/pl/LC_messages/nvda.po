@@ -1,0 +1,345 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tiflotecniaVoices package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: tiflotecniaVoices 4.0.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2024-04-15 01:02+0400\n"
+"PO-Revision-Date: 2024-04-27 20:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:22
+msgid "Enter the license key you have received after purchasing the software:"
+msgstr "Wprowadź klucz licencyjny otrzymany po zakupie oprogramowania:"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:24
+msgid "&Generate identification file"
+msgstr "&Wygeneruj plik identyfikacyjny"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:25
+msgid "&Activate license"
+msgstr "&Aktywuj licencję"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:26
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:129
+msgid "Close"
+msgstr "Zamknij"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:45
+msgid "Online activation"
+msgstr "Aktywacja Online"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:46
+msgid ""
+"This method will allow you to activate the software using a license key and "
+"an internet connection."
+msgstr ""
+"Ta metoda pozwoli Ci aktywować oprogramowanie używając klucza licensyjnego "
+"oraz połączenia z internetem."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:58
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:85
+msgid "No license key entered."
+msgstr "Nie wprowadzono klucza licensyjnego."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:64
+#, python-brace-format
+msgid "An error occurred while activating license: {0}."
+msgstr "Wystąpił błąd podczas aktywacji: {0}."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:71
+msgid "Product activation has been successfully completed. Thank you."
+msgstr "Aktywacja produktu zakończona pomyślnie. Dziękujemy."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:76
+msgid "Offline activation"
+msgstr "Aktywacja offline"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:77
+msgid ""
+"This method will allow you to activate a license without an internet "
+"connection. To perform this action, enter the license key you have received "
+"after purchasing the software, generate a machine identification file, and "
+"import a license file received from the offline activation portal which can "
+"be accessed at: https://activate.accessmind.net."
+msgstr ""
+"Ta metoda pozwoli Ci aktywować licencję bez połączenia z internetem. W tym "
+"celu wprowadź klucz licencyjny otrzymany po zakupie oprogramowania, "
+"wygeneruj plik identyfikujący komputer, a następnie zaimportuj plik "
+"licencyjny utworzony w portalu aktywacji offline. Portal znajdziesz pod "
+"adresem: https://activate.accessmind.net/"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:88
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:59
+msgid "Save machine identification file"
+msgstr "Zapisz plik identyfikacyjny"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:94
+#, python-brace-format
+msgid "Error saving identification data: {0}."
+msgstr "Wystąpił błąd podczas zapisywania danych identyfikacyjnych: {0}."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:97
+msgid "Identification data has been saved successfully."
+msgstr "Dane identyfikacyjne zapisane pomyślnie."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:101
+msgid "Import license file"
+msgstr "Importuj plik licencyjny"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:107
+#, python-brace-format
+msgid "Error activating license: {0}."
+msgstr "Wystąpił błąd podczas aktywacji: {0}."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:112
+msgid "Offline license has been successfully activated."
+msgstr "Licencja offline aktywowana pomyślnie."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:118
+#, python-brace-format
+msgid "{name} product activation system"
+msgstr "{name} - Aktywacja"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:124
+#, python-brace-format
+msgid "This program will allow you to activate your {name} software."
+msgstr "Ten program pozwoli Ci aktywować {name}."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:125
+msgid "Choose an activation method:"
+msgstr "Wybierz metodę aktywacji:"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:125
+msgid "Using the internet (recommended)"
+msgstr "Przez internet (zalecane)"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:125
+msgid "Offline activation (for places without an internet connection)"
+msgstr "Aktywacja offline (dla komputerów bez dostępu do internetu)"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:125
+msgid "I want to try the product for 7 days"
+msgstr "Chcę wypróbować ten produkt przez 7 dni"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:126
+msgid "&Next"
+msgstr "&Dalej"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:127
+msgid "Try the product for &7 days"
+msgstr "Wypróbuj produkt przez &7 dni"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:173
+#, python-brace-format
+msgid "An error occurred while activating a trial license: {0}."
+msgstr "Wystąpił błąd podczas aktywacji licencji próbnej: {0}."
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:175
+msgid "Trial activation successful"
+msgstr "Aktywacja wersji próbnej zakończona pomyślnie"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:180
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:70
+msgid "Success"
+msgstr "Sukces"
+
+#: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:185
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:61
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:68
+msgid "Error"
+msgstr "Błąd"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:42
+msgid "Latin"
+msgstr "w alfabecie  łacińskim"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:43
+msgid "Cyrillic"
+msgstr "cyrylicą"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:44
+msgid "CJK"
+msgstr "po chińsku/japońsku/koreańsku"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:45
+msgid "Arabic"
+msgstr "po arabsku"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:46
+msgid "Hebrew"
+msgstr "po hebrajsku"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:71
+#, python-brace-format
+msgid "Voice for {name} characters:"
+msgstr "Głos dla tekstu {name}:"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:16
+#, python-brace-format
+msgid ""
+"{name} version {version}.\n"
+"\n"
+"This product is based on AccessMind Runa TTS technology, and Cerence "
+"embedded TTS voices. License conditions for each component are as follows:\n"
+"\n"
+"Cerence Embedded TTS, \n"
+"\n"
+"Copyright © 2024 Cerence, Inc. All rights reserved.\n"
+"\n"
+"Runa TTS technology, including engine, NVDA interface, and license "
+"management:\n"
+"\n"
+"Copyright © 2024 AccessMind, LLC. All rights reserved.\n"
+msgstr ""
+"{name} wersja {version}.\n"
+"\n"
+"Ten produkt bazuje na technologii AccessMind Runa TTS oraz głosach Cerence "
+"embedded TTS. Warunki licencyjne dla każdego komponentu są następujące:\n"
+"\n"
+"Cerence Embedded TTS, \n"
+"\n"
+"Copyright © 2024 Cerence, Inc. Wszystkie prawa zastrzeżone.\n"
+"\n"
+"Technologia Runa TTS, w tym silnik, integracja z NVDA, oraz zarządzanie "
+"licencją:\n"
+"\n"
+"Copyright © 2024 AccessMind, LLC. Wszystkie prawa zastrzeżone.\n"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:43
+#, python-brace-format
+msgid "Do you want to switch to {name} speech synthesizer?"
+msgstr "Czy chcesz przełączyć się na syntezator mowy {name}?"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:43
+msgid "Switch speech synthesizer"
+msgstr "Przełącz syntezator mowy"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:51
+#, python-brace-format
+msgid ""
+"Are you sure you want to remove the license from this computer? The license "
+"will be transfered back to the server and the {name} will stop working."
+msgstr ""
+"Czy na pewno chcesz usunąć licencję z tego komputera? Licencja zostanie "
+"przeniesiona z powrotem na server, a {name} przestanie działać."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:52
+msgid ""
+" Because you have an offline activated license, you will need to save the "
+"file which will be created after this dialog and pass it to the activation "
+"portal or your distributer to get the activation back."
+msgstr ""
+" Ponieważ korzystasz z licencji offline, musisz zapisać plik, który "
+"zostanie utworzony po zamknięciu tego komunikatu i przesłać go na portal "
+"aktywacyjny lub do twojego dystrybutora, aby odzyskać aktywację."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:55
+msgid "Remove license"
+msgstr "Usuń licencję"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:61
+msgid "File was not saved."
+msgstr "Plik nie został zapisany."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:68
+#, python-brace-format
+msgid "Error removing license: {0}."
+msgstr "Wystąpił błąd podczas usuwania licencji: {0}."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:70
+msgid "The license has been removed successfully."
+msgstr "Licencja została usunięta pomyślnie."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:81
+msgid "Do you want to run voice manager tool to download voices?"
+msgstr "Czy chcesz uruchomić menadżer głosów, aby pobrać głosy?"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:81
+msgid "No installed voices"
+msgstr "Brak zainstalowanych głosów"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:86
+#, python-brace-format
+msgid "About {name}"
+msgstr "O {name}"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:91
+#, python-brace-format
+msgid "{name} management options"
+msgstr "Zarządzanie {name}"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:92
+msgid "Manage &voices..."
+msgstr "Zarządzaj &Głosami..."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:92
+msgid "Manages voices installations and removals"
+msgstr "Pozwala na instalowanie i usuwanie głosów"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:94
+msgid "&Remove license"
+msgstr "&Usuń licencję"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:94
+msgid "Removes the license from this computer"
+msgstr "Usuwa licencję z tego komputera"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:96
+msgid "&activate license"
+msgstr "&Aktywuj licencję"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:96
+msgid "Opens license activation dialog"
+msgstr "Otwiera okno aktywacji licencji"
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:97
+#, python-brace-format
+msgid "&About {name}..."
+msgstr "O {name}..."
+
+#: addon\globalPlugins\tiflotecniaVoices\interface.py:97
+msgid "Shows about dialog"
+msgstr "Otwiera okno informacyjne"
+
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:32
+msgid "Lowest"
+msgstr "Najniższa"
+
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:33
+msgid "enhanced"
+msgstr "Rozszeżona"
+
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:34
+msgid "Intermediate"
+msgstr "Średnia"
+
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:35
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:36
+msgid "highest"
+msgstr "Najwyższa"
+
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:168
+msgid "Automatically switch language based on unicode characters"
+msgstr "Automatyczne przełączanie języka na podstawie znaków Unicode"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:24 buildVars.py:28
+msgid "Tiflotecnia voices for NVDA"
+msgstr "Głosy Tiflotecnia dla NVDA"
+
+#: buildVars.py:25
+msgid "&Tiflotecnia voices for NVDA"
+msgstr "&Głosy Tiflotecnia dla NVDA"
+
