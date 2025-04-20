@@ -1,26 +1,46 @@
-import queue
-import threading
-import os
-import extensionPoints
 from collections import OrderedDict
 from ctypes import *
-import globalPlugins.tiflotecniaVoices as pluginInstance
+import os
+import queue
+import threading
 import time
-import config
-import nvwave
-import languageHandler
+
+import wx
+
 import addonHandler
+import buildVersion
+import config
+import extensionPoints
+import languageHandler
+import nvwave
 import speech
-from speech.commands import IndexCommand, CharacterModeCommand, LangChangeCommand, PitchCommand, BreakCommand, RateCommand, SpeechCommand
-from synthDriverHandler import SynthDriver, LanguageInfo, VoiceInfo, synthIndexReached, synthDoneSpeaking
+
 from autoSettingsUtils.driverSetting import BooleanDriverSetting, DriverSetting
 from autoSettingsUtils.utils import StringParameterInfo
 from logHandler import log
-import wx
-from . import lowLevel
-from .lowLevel.structs import *
-from .lowLevel import languageDetection
+from speech.commands import (
+    BreakCommand,
+    CharacterModeCommand,
+    IndexCommand,
+    LangChangeCommand,
+    PitchCommand,
+    RateCommand,
+    SpeechCommand,
+)
+from synthDriverHandler import (
+    LanguageInfo,
+    SynthDriver,
+    VoiceInfo,
+    synthDoneSpeaking,
+    synthIndexReached,
+)
+
+import globalPlugins.tiflotecniaVoices as pluginInstance
+
 from globalPlugins.tiflotecniaVoices.utils import *
+from . import lowLevel
+from .lowLevel import languageDetection
+from .lowLevel.structs import *
 
 addonHandler.initTranslation()
 synthInitialized = extensionPoints.Action()
@@ -204,7 +224,14 @@ class SynthDriver(SynthDriver):
         self._bgQueue = queue.Queue()
         self._bgThread = BgThread(self._bgQueue)
 
-        self._player = nvwave.WavePlayer(channels=1, samplesPerSec=22050, bitsPerSample=16, outputDevice=config.conf["speech"]["outputDevice"], buffered=True)
+        self.outputDeviceSection = config.conf["speech"] if buildVersion.version_year < 2025 else config.conf["audio"]
+        self._player = nvwave.WavePlayer(
+            channels=1,
+            samplesPerSec=22050,
+            bitsPerSample=16,
+            outputDevice=self.outputDeviceSection["outputDevice"],
+            **({"buffered": True} if buildVersion.version_year < 2025 else {})
+        )
         self._isSilence = threading.Event()
         self._veCallback = VE_CBOUTNOTIFY(VECallback(self._player, self._isSilence, self._onIndexReached))
 

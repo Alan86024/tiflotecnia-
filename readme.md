@@ -1,8 +1,8 @@
-# Tiflotecnia Voices for NVDA Documentation
+# Tiflotechnia Voices for NVDA Documentation
 
 ## Welcome
 
-Thank you for choosing TiflotecniaVoices for your text to speech needs. You are about to experience the best in high-quality multilingual, responsive and natural speech synthesis. This documentation will familiarize you with all of the features this addon has to offer.
+Thank you for choosing Tiflotechnia for your text to speech needs. You are about to experience the best in high-quality multilingual, responsive and natural speech synthesis. This documentation will familiarize you with all of the features this addon has to offer.
 
 ## System Requirements
 
