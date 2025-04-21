@@ -304,8 +304,6 @@ msgid "Open &documentation..."
 msgstr "פתיחת ה&תיעוד"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:110
-#, fuzzy
-#| msgid "Opens license activation dialog"
 msgid "Opens documentation"
 msgstr "פתיחת דו-שיח הפעלת הרישיון"
 
@@ -357,26 +355,3 @@ msgstr "קולות Tiflotecnia עבור NVDA"
 #: buildVars.py:25
 msgid "Tiflotecnia &voices for NVDA"
 msgstr "&קולות Tiflotecnia עבור NVDA"
-
-#, fuzzy
-#~| msgid "Tiflotecnia voices for NVDA"
-#~ msgid "&Tiflotecnia voices for NVDA"
-#~ msgstr "קולות Tiflotecnia עבור NVDA"
-
-#~ msgid "&User guide..."
-#~ msgstr "מ&דריך למשתמש..."
-
-#~ msgid "Opens user guide"
-#~ msgstr "פתיחת המדריך למשתמש"
-
-#~ msgid "Tiflotecnia voices"
-#~ msgstr "קולות Tiflotecnia"
-
-#~ msgid "About Tiflotecnia voices for NVDA"
-#~ msgstr "אודות קולות Tiflotecnia עבור NVDA"
-
-#~ msgid "&Tiflotecnia voices "
-#~ msgstr "&קולות Tiflotecnia"
-
-#~ msgid "&About Tiflotecnia voices..."
-#~ msgstr "&אודות קולות Tiflotecnia..."

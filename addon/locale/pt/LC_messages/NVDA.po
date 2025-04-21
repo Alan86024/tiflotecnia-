@@ -365,14 +365,3 @@ msgstr "&Vozes Tiflotecnia para NVDA"
 #~ msgid "&Tiflotecnia voices for NVDA"
 #~ msgstr "Vozes &Tiflotecnia para o NVDA"
 
-#~ msgid "Tiflotecnia voices"
-#~ msgstr "קולות Tiflotecnia"
-
-#~ msgid "About Tiflotecnia voices for NVDA"
-#~ msgstr "אודות קולות Tiflotecnia עבור NVDA"
-
-#~ msgid "&Tiflotecnia voices "
-#~ msgstr "&קולות Tiflotecnia"
-
-#~ msgid "&About Tiflotecnia voices..."
-#~ msgstr "&אודות קולות Tiflotecnia..."
