@@ -351,7 +351,7 @@ msgstr "句子之间停顿(&P)"
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
 msgid "Tiflotecnia voices for NVDA"
-msgstr "NVDA 的 Tiflotecnia 语音"
+msgstr "Tiflotecnia Voice For NVDA"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -361,15 +361,15 @@ msgid ""
 "NVDA driver to the Cerence Embedded TTS synth\n"
 "License required to use the voices."
 msgstr ""
-"NVDA 的 Tiflotecnia 语音\n"
+"Tiflotecnia Voice For NVDA\n"
 "Cerence 嵌入式 TTS 的 NVDA 语音合成器驱动\n"
 "使用语音需要许可证。"
 
 #~ msgid "Tiflotecnia &voices for NVDA"
-#~ msgstr "NVDA 的 Tiflotecnia 语音(&V)"
+#~ msgstr "Tiflotecnia Voice For NVDA"
 
 #~ msgid "&Tiflotecnia voices for NVDA"
-#~ msgstr "NVDA 的 Tiflotecnia 语音(&T)"
+#~ msgstr "Tiflotecnia Voice For NVDA"
 
 #~ msgid "&User guide..."
 #~ msgstr "用户指南..."
